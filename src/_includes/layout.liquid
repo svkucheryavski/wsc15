@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WSC-15 | {{ title }}</title>
+  <link rel="stylesheet" href="/styles/wsc.css">
+</head>
+<body>
+   <div class="page">
+  {% include "header.liquid" %}
+  {% include "nav.liquid" %}
+
+   <main>
+      {{ content }}
+   </main>
+
+   {% include "footer.liquid" %}
+
+   </div>
+   <script>
+      const gallery = document.querySelectorAll(".gallery");
+      console.log(gallery)
+      if (gallery.length > 0) {
+         const images = document.querySelectorAll(".gallery-image");
+         const dots = document.querySelectorAll(".dot");
+         console.log(dots)
+         dots.forEach(dot => {
+            dot.addEventListener("click", () => {
+               const index = parseInt(dot.getAttribute("data-index"));
+               console.log(index)
+               // Deactivate all
+               images.forEach(img => img.classList.remove("active"));
+               dots.forEach(d => d.classList.remove("active"));
+
+               // Activate selected
+               images[index].classList.add("active");
+               dot.classList.add("active");
+            });
+         });
+      }
+   </script>
+
+</body>
+</html>

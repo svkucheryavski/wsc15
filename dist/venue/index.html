@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WSC-15 | About</title>
+  <link rel="stylesheet" href="/styles/wsc.css">
+</head>
+<body>
+   <div class="page">
+  <header>
+<h1>
+   <img class="logo" title="WSC-15" alt="WSC-15" src="/images/logo.svg">
+   </h>
+</header>
+
+<div class="info">
+   <div class="dates">
+
+   <div class="year">2025</div>
+   <span>01.09</span> – registration open<br>
+   <span>15.11</span> – deadline for early birds<br>
+
+   <div class="year">2026</div>
+   <span>25.01</span> – notification of acceptance<br>
+   <span>01.02</span> – deadline for poster abstracts<br>
+   <span>23.02</span> – symposium opening<br>
+   <span>27.02</span> – excursion and departure<br>
+
+   </div>
+
+<!--
+   <div class="sponsors">
+   <br>
+   <br>
+   Space for sponsirs logo
+   <br>
+   <br>
+   </div>
+   -->
+</div>
+  <nav>
+  <ul>
+    <li class=""><a href="/">Home</a></li>
+    <li class="active"><a href="/venue/">Venue</a></li>
+    <li class=""><a href="/participation/">Participation</a></li>
+  </ul>
+</nav>
+
+
+   <main>
+      <p>WSC-15 will be held in <a href="https://uzbekistan.travel/en/">Uzbekistan</a>. The Layner Mountain Resort Complex is nestled in the heart of Chimgan, Uzbekistan, a picturesque mountain destination renowned for its stunning landscapes and year-round appeal to tourists and adventure enthusiasts. Guests will enjoy their stay in a modern hotel featuring 100 well-appointed rooms, set within an 8-hectare beautifully landscaped, secure territory surrounded by the majestic Chimgan mountains.</p>
+<div class="gallery">
+  <div class="gallery-images">
+    <img src="/images/photo1.jpg" alt="Photo 1" class="gallery-image active">
+    <img src="/images/photo2.jpg" alt="Photo 2" class="gallery-image">
+    <img src="/images/photo3.png" alt="Photo 3" class="gallery-image">
+  </div>
+  <div class="galery-dots">
+    <span class="dot active" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+  </div>
+</div>
+<p>The resort offers an array of amenities, including a restaurant with a terrace, general, women-only, and children’s pools with a waterpark, beach volleyball, a football field, a basketball court, a professional tennis court, a spa center with premium fitness equipment, an all-season slide, a summer amphitheater, a small cinema, indoor and outdoor children’s playgrounds, a dedicated creative zone for women, a billiard room, a shooting range, gazebos, karaoke, a gaming room with PS5, conference halls, and much more. The restaurant provides delicious cuisine, exceptional service, a cozy atmosphere, and vibrant evening entertainment featuring music, hosts, and shows.</p>
+<h2>Visa</h2>
+<p>To obtain an Uzbekistan visa, you can apply for an e-visa online or through an Uzbek embassy or consulate. For shorter stays (up to 30 days) for tourism, you can apply for an e-visa. If you need a longer stay or are not eligible for an e-visa, you'll need to apply through an Uzbek embassy or consulate. You can <a class="highlight" href="https://gov.uz/en/mfa/activity_page/o-zbekiston-respublikasi-vizasi">check online</a> whether you need a visa for Uzbekistan or not.</p>
+
+   </main>
+
+   <footer>
+  <p>Winter Symposium on Chemometrics, <a href="mailto:wsc15conference@gmail.com">wsc15conference@gmail.com</a></p>
+</footer>
+
+
+   </div>
+   <script>
+      const gallery = document.querySelectorAll(".gallery");
+      console.log(gallery)
+      if (gallery.length > 0) {
+         const images = document.querySelectorAll(".gallery-image");
+         const dots = document.querySelectorAll(".dot");
+         console.log(dots)
+         dots.forEach(dot => {
+            dot.addEventListener("click", () => {
+               const index = parseInt(dot.getAttribute("data-index"));
+               console.log(index)
+               // Deactivate all
+               images.forEach(img => img.classList.remove("active"));
+               dots.forEach(d => d.classList.remove("active"));
+
+               // Activate selected
+               images[index].classList.add("active");
+               dot.classList.add("active");
+            });
+         });
+      }
+   </script>
+
+</body>
+</html>
