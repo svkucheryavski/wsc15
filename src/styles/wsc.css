@@ -7,7 +7,7 @@
    --color-text: 605060;
    --color-link: #584EC0;
    --color-link-dark: #423b92;
-   --color-bg1: #fefefa;
+   --color-bg1: #fffeff;
    --color-bg2: #f3effc;
    --color-bg25: #ece3ff;
    --color-bg3: #ddcbfe;
@@ -43,9 +43,10 @@ body {
       "header main"
       "info main"
       ". main"
-      "footer footer";
+      ". footer";
    grid-template-rows: min-content min-content min-content 1fr min-content;
    grid-template-columns: 300px 1fr;
+   column-gap: 1em;
 }
 
 .page > main {
@@ -118,18 +119,6 @@ a.highlight {
 a.highlight:hover {
    background-color: var(--color-bg25);
    color: var(--color-link-dark);
-}
-
-
-@media(max-width: 850px) {
-   body {
-      font-size: 14px;
-   }
-
-   .page {
-      grid-template-columns: 270px 1fr;
-
-   }
 }
 
 /**************************************/
@@ -265,7 +254,7 @@ footer > p {
 .gallery {
    margin: auto;
    text-align: center;
-   margin: 1em;
+   margin: 1em 0;
 }
 
 .gallery-images {
@@ -280,12 +269,12 @@ footer > p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: auto;
-  object-fit: none;
+  width: auto;
+  height: 380px;
+  object-fit: fit;
   border-radius: 5px;
   opacity: 0;
-  transition: opacity 1.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
   pointer-events: none; /* Prevent clicking hidden ones */
 }
 
@@ -355,4 +344,29 @@ footer > p {
 .fees thead tr th:first-of-type,
 .fees tbody tr td:first-child {
    text-align: left;
+}
+
+
+/**************************************/
+/* Media queries                      */
+/**************************************/
+
+@media(max-width: 900px) {
+   body {
+      font-size: 14px;
+   }
+
+   .page {
+      grid-template-columns: 270px 1fr;
+      column-gap: 0.25em;
+   }
+
+   .gallery-images {
+      max-width: 500px;
+      height: 300px;
+   }
+
+   .gallery-image {
+      height: 300px;
+   }
 }
