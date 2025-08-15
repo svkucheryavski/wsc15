@@ -3,7 +3,10 @@ layout: layout.liquid
 title: Home
 ---
 
+<img src="/images/chemometrics-3.0.png" style="width:40%;height:auto;float:right;">
+
 **You are cordially invited to participate in WSC-15!**
+
 
 The symposium program includes invited lectures, as well as submitted oral presentations and posters. The contributions may report mature results, feasibility studies, or problem discussions etc. A friendly and open-minded atmosphere is a distinguishing feature of all WSC meetings.
 
