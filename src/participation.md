@@ -16,7 +16,7 @@ Abstracts for poster presentations can be considered up to the 01.02.2026.
 
 ## Registration
 
-The preferred way of registration is via on-line form, which will be  available on the conference web site soon. Please send all related questions to Dr. Anastasiia Surkova, the conference secretary <a href="mailto:wsc15chemometrics@gmail.com">wsc15chemometrics@gmail.com</a>.
+The preferred way of registration is via <a class="highlight" href="https://docs.google.com/forms/d/e/1FAIpQLSeOQgloyaPGMBIFjaOLJvpUKmR1RH5BsTKd7djd5P4AIkAJjQ/viewform?pli=1">on-line form</a>. Please send all related questions to Dr. Anastasiia Surkova, the conference secretary <a href="mailto:wsc15chemometrics@gmail.com">wsc15chemometrics@gmail.com</a>.
 
 ## Registration Fee
 
@@ -58,7 +58,7 @@ Registration fee includes:
 * conference materials; all meals,
 * coffee breaks and banquet.
 
-It also includes all resort activities, spa center, billiard, etc. In fact, the only thing not covered by the registration fee is your travel to and from Tashkent (Uzbekistan). Detailed payment instructions are available on the conference web site.
+It also includes all resort activities, spa center, billiard, etc. In fact, the only thing not covered by the registration fee is your travel to and from Tashkent (Uzbekistan). Detailed payment instructions are available as PDF files: <a href="/documents/Payment-instructions-ru.pdf">for participants from Russia</a> and <a href="/documents/Payment-instructions.pdf">for participants from all other countries</a>.
 
 ## Visa
 To obtain an Uzbekistan visa, you can apply for an e-visa online or through an Uzbek embassy or consulate. For shorter stays (up to 30 days) for tourism, you can apply for an e-visa. If you need a longer stay or are not eligible for an e-visa, you'll need to apply through an Uzbek embassy or consulate. You can <a class="highlight" href="https://gov.uz/en/mfa/activity_page/o-zbekiston-respublikasi-vizasi">check online</a> whether you need a visa for Uzbekistan or not.

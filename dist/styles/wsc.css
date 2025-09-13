@@ -126,6 +126,9 @@ a.highlight:hover {
 /**************************************/
 
 header {
+   padding-right: 1em;
+}
+header > h1 {
    text-align: center;
 }
 
@@ -140,9 +143,74 @@ header .logo {
    height: 250px;
 }
 
-header > div {
-   font-size: 1.25em;
-   color: var(--color-link-dark)
+
+.dates {
+   box-sizing: border-box;
+   width: 100%;
+   border-radius: 5px;
+   background-color: var(--color-bg2);
+   color: var(--color-link-dark);
+   margin: 1.0em;
+   font-size: 1em;
+   padding: 0.75em;
+   line-height: 1.65em;
+}
+
+.dates > span {
+   font-weight: bold;
+}
+
+.dates > .year {
+   margin-top: 1.5em;
+   font-weight: bold;
+   color: #B4B0DB;
+}
+
+.dates > .year:first-of-type {
+   margin-top: 0;
+}
+
+
+.documents {
+   margin: 1em;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+.documents > a {
+   display:block;
+   box-sizing: border-box;
+   width: 100%;
+   border-radius: 5px;
+   background-color: var(--color-bg2);
+   color: var(--color-link-dark);
+
+   font-size: 0.9em;
+   text-decoration: none;
+   font-weight: bold;
+   min-height: 48px;
+   line-height: 1.3em;
+   margin: 0.5em 0em;
+
+   background-repeat: no-repeat;
+   background-size: 32px;       /* adjust size */
+   background-position: 10px center;
+
+   padding: 0.5em;
+   padding-left: 52px;
+}
+
+.documents > a.file {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M8 4h36l12 12v44a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4z' fill='%23584EC0'/><path d='M44 4v12h12L44 4z' fill='%23ffffff' fill-opacity='0.6'/><text x='32' y='44' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-weight='700' font-size='17' fill='%23ffffff' letter-spacing='0.5'>PDF</text></svg>");
+}
+
+.documents > a.link {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='8' y='4' width='48' height='56' rx='4' ry='4' fill='%23584EC0'/><g stroke='%23FFFFFF' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none' transform='translate(14,14)'><line x1='7' y1='28' x2='27' y2='8'/><polyline points='19,8 27,8 27,16'/></g></svg>");
+}
+
+.documents > a > span{
+   font-weight: normal;
+   opacity: 0.6;
 }
 
 /**************************************/
@@ -212,40 +280,7 @@ footer > p {
 /* Navigation                         */
 /**************************************/
 
-.info {
-   box-sizing: border-box;
-   padding: 1em 0.5em;
-}
 
-.info > div {
-   box-sizing: border-box;
-   width: 100%;
-   border-radius: 5px;
-   background-color: var(--color-bg2);
-   color: var(--color-link-dark);
-   margin: 0.5em;
-   padding: 0 0.5em;
-   font-size: 1em;
-}
-
-.info > .dates {
-   padding: 0.75em;
-   line-height: 1.65em;
-}
-
-.info > .dates > span {
-   font-weight: bold;
-}
-
-.info > .dates > .year {
-   margin-top: 1.5em;
-   font-weight: bold;
-   color: #B4B0DB;
-}
-
-.info > .dates > .year:first-of-type {
-   margin-top: 0;
-}
 
 /**************************************/
 /* Photo gallery                      */
