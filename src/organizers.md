@@ -13,6 +13,8 @@ title: Organizers
 
 **Conference secretary:** <a href="mailto:wsc15chemometrics@gmail.com">Dr. Anastasiia Surkova</a>
 
+**Local organizing committee and conference treasurer:** Amir-Temur Toshpulatov
+
 ## Scientific Committee
 
 * Dr. Federico Marini, University of Rome La Sapienza
