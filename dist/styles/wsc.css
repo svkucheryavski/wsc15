@@ -200,6 +200,11 @@ header .logo {
    padding-left: 52px;
 }
 
+.documents > a.highlight {
+   background-color: var(--color-bg25);
+   color: var(--color-link-dark);
+}
+
 .documents > a.file {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M8 4h36l12 12v44a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4z' fill='%23584EC0'/><path d='M44 4v12h12L44 4z' fill='%23ffffff' fill-opacity='0.6'/><text x='32' y='44' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-weight='700' font-size='17' fill='%23ffffff' letter-spacing='0.5'>PDF</text></svg>");
 }
