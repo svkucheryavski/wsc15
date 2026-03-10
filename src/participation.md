@@ -16,7 +16,7 @@ Abstracts for poster presentations can be considered up to the 01.02.2026.
 
 ## Registration
 
-The preferred way of registration is via <a class="highlight" href="https://docs.google.com/forms/d/e/1FAIpQLSeOQgloyaPGMBIFjaOLJvpUKmR1RH5BsTKd7djd5P4AIkAJjQ/viewform?pli=1">on-line form</a>. Please send all related questions to Dr. Anastasiia Surkova, the conference secretary <a href="mailto:wsc15chemometrics@gmail.com">wsc15chemometrics@gmail.com</a>.
+Please send all related questions to Dr. Anastasiia Surkova, the conference secretary <a href="mailto:wsc15chemometrics@gmail.com">wsc15chemometrics@gmail.com</a>.
 
 ## Registration Fee
 
